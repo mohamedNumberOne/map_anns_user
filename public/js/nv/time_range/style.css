@@ -1,0 +1,49 @@
+.working-time-range {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.working-time-range .btn-range-box {
+  margin-left: 10px;
+  position: relative;
+}
+
+.working-time-range .btn-range-box button {
+  position: relative;
+  z-index: 1001;
+}
+
+.working-time-range .range-input-div {
+  width: 500px;
+  position: absolute;
+  left: 0px;
+  margin-top: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 0 15px 0;
+  border-radius: 0.3rem;
+  z-index: 1001;
+}
+
+.working-time-range .range-input-div h5 {
+  margin: 0px -15px 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 5px;
+  color: #333;
+  font-weight: 300;
+}
+
+.working-time-range .range-input-div h5 span.close {
+  float: right;
+  margin-top: -5px;
+}
+
+.working-time-range .range-mask {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: transparent;
+  z-index: 1000;
+}
