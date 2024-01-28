@@ -19,6 +19,7 @@
     <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css"
         rel="stylesheet">
     <link href="{{ asset('js/leaflet.legend.css') }}" rel="stylesheet">
+    
     {{-- <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.1/dist/leaflet.css"
         integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
         crossorigin="" /> 
@@ -101,8 +102,10 @@
 <body>
     <div class="ts-page-wrapper ts-homepage ts-full-screen-page" id="page-top">
         <div id="loader">
-            <img class="hide" id="img_lod" src="{{ asset('front2/assets/img/loader-128x/14.gi') }}">
-            {{-- <img class="hide" id="img_lod" src="{{ asset('images/icon.png') }}"> --}}
+
+            {{-- <img class="hide" id="img_lod" src="{{ asset('front2/assets/img/loader-128x/14.gif') }}" >    --}}
+
+            <img class="hide" id="img_lod" src="{{ asset('images/icon.png') }}"> 
 
             <div>
                 <header id="ts-header" class="">
